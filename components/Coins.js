@@ -18,7 +18,7 @@ const Coins = ({
                 <div className={coinsStyles.coin_container}>
                     <div className={coinsStyles.coin_row}>
                         <div className={coinsStyles.coin}>
-                            <Image src={image} alt={name} className={coinsStyles.coin_img} width={30} height={30}/>
+                            <Image id={coinsStyles.list_icon} src={image} alt={name} className={coinsStyles.coin_img} width={40} height={40} />
                             <h1 className={coinsStyles.coin_h1}>{name}</h1>
                             <p className={coinsStyles.coin_symbol}>{symbol}</p>
                         </div>

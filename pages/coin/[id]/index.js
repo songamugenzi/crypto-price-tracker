@@ -5,7 +5,7 @@ const Coin = ({coin}) => {
     return (
         <div className={coinStyles.coin_page}>
             <div className={coinStyles.coin_container}>
-                <Image src={coin.image.large} alt={coin.name} className={coinStyles.coin_image} width={30} height={30}/>
+                <Image src={coin.image.large} alt={coin.name} className={coinStyles.coin_image} width={80} height={80}/>
                 <h1 className={coinStyles.coin_name}>{coin.name}</h1>
                 <p className={coinStyles.coin_ticker}>{coin.symbol}</p>
                 <p className={coinStyles.coin_current}>

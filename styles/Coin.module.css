@@ -3,6 +3,7 @@
   justify-content: center;
   height: 75vh;
   align-items: center;
+  color: #fff;
 }
 
 .coin_container {
@@ -26,6 +27,7 @@
 
 .coin_ticker {
   margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
 
 .coin_current {
