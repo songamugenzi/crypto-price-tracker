@@ -13,6 +13,8 @@
   outline: none;
   height: 100%;
   width: 100%;
+  font-size: 1rem;
+  color: #e2e2e2;
 }
 
 .coin_input::placeholder {
